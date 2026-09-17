@@ -13,7 +13,7 @@
     git clone https://github.com/scriptz0340/Link.git
     python/pyhton3 -m venv venv
     source venv/bin/activate
-    pip/pip3 install requirements.txt
+    python/python3 -m pip/pip3 install -r requirements.txt
     
     The first comand will clone the repo into your current working directory. The second will create a virtual environment. The third will activate the virtual environment. The fourth will install the dependencies inside of your virtual environment. Make sure to create the venv in the base directory of the repo and make sure to activate it before installing requirements to avoid conflicts.     
 
